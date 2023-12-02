@@ -56,7 +56,7 @@ public class Tax1099NecDocumentGenerator {
         Tax1099NecPdfBuilder pdfBuilder = new Tax1099NecPdfBuilder( );
         byte[] bytes = pdfBuilder.buildQr( taxDataList );
 
-        String filePath = "samples/Tax1099Nec.sample.png";
+        String filePath = "samples/Tax1099Nec.qr.png";
         FileUtils.bytesToFile( bytes, filePath );
         System.out.println( filePath );
 
@@ -84,6 +84,12 @@ public class Tax1099NecDocumentGenerator {
         String filePath = "samples/Tax1099Nec.sample.pdf";
         FileUtils.bytesToFile( pdfBytes, filePath );
         System.out.println( filePath );
+
+        String filePathPng = "samples/Tax1099Nec.sample.png";
+        byte[] pngBytes = Pdf2PngConverter.convertBytes( pdfBytes );
+        FileUtils.bytesToFile( pngBytes, filePathPng );
+        System.out.println( filePathPng );
+
 
     }
 
