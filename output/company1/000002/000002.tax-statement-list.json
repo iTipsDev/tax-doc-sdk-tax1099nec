@@ -1,0 +1,68 @@
+{
+  "statements" : [ {
+    "forms" : [ {
+      "tax1099Nec" : {
+        "taxYear" : 2024,
+        "corrected" : false,
+        "accountId" : "53-170-4393",
+        "issuer" : {
+          "tin" : "00-0342653",
+          "partyType" : "BUSINESS",
+          "businessName" : {
+            "name1" : "Quitzon and Sons"
+          },
+          "address" : {
+            "line1" : "8004 Tuan Street",
+            "city" : "New Daniella",
+            "region" : "CT",
+            "postalCode" : "46847"
+          },
+          "phone" : {
+            "number" : "555-867-5309",
+            "primary" : false
+          },
+          "email" : "annemarie.tremblay@yahoo.com"
+        },
+        "recipient" : {
+          "tin" : "000-69-8152",
+          "partyType" : "INDIVIDUAL",
+          "individualName" : {
+            "first" : "Gay",
+            "last" : "Gerhold"
+          },
+          "address" : {
+            "line1" : "165 Cecil Locks",
+            "city" : "Langmouth",
+            "region" : "GA",
+            "postalCode" : "17444"
+          },
+          "phone" : {
+            "primary" : false
+          },
+          "email" : "pa.rath@hotmail.com"
+        },
+        "attributes" : [ ],
+        "links" : [ ],
+        "accountNumber" : "090-06204-5",
+        "secondTinNotice" : true,
+        "nonEmployeeCompensation" : 200,
+        "payerDirectSales" : true,
+        "federalTaxWithheld" : 300,
+        "stateAndLocal" : [ {
+          "stateCode" : "AA",
+          "state" : {
+            "taxWithheld" : 400,
+            "taxId" : "24-387123",
+            "income" : 500
+          },
+          "local" : {
+            "taxWithheld" : 600,
+            "localityName" : "Lake Caleb",
+            "income" : 700
+          }
+        } ]
+      }
+    } ],
+    "attributes" : [ ]
+  } ]
+}
