@@ -1,0 +1,68 @@
+{
+  "statements" : [ {
+    "forms" : [ {
+      "tax1099Nec" : {
+        "taxYear" : 2024,
+        "corrected" : false,
+        "accountId" : "12-069-2964",
+        "issuer" : {
+          "tin" : "00-0342653",
+          "partyType" : "BUSINESS",
+          "businessName" : {
+            "name1" : "Quitzon and Sons"
+          },
+          "address" : {
+            "line1" : "8004 Tuan Street",
+            "city" : "New Daniella",
+            "region" : "CT",
+            "postalCode" : "46847"
+          },
+          "phone" : {
+            "number" : "555-867-5309",
+            "primary" : false
+          },
+          "email" : "annemarie.tremblay@yahoo.com"
+        },
+        "recipient" : {
+          "tin" : "000-13-5654",
+          "partyType" : "INDIVIDUAL",
+          "individualName" : {
+            "first" : "Cedrick",
+            "last" : "VonRueden"
+          },
+          "address" : {
+            "line1" : "94099 Schaefer Heights",
+            "city" : "Schmidtborough",
+            "region" : "OH",
+            "postalCode" : "14158"
+          },
+          "phone" : {
+            "primary" : false
+          },
+          "email" : "gaylord.lind@gmail.com"
+        },
+        "attributes" : [ ],
+        "links" : [ ],
+        "accountNumber" : "601-29313-8",
+        "secondTinNotice" : true,
+        "nonEmployeeCompensation" : 200,
+        "payerDirectSales" : true,
+        "federalTaxWithheld" : 300,
+        "stateAndLocal" : [ {
+          "stateCode" : "AA",
+          "state" : {
+            "taxWithheld" : 400,
+            "taxId" : "35-883026",
+            "income" : 500
+          },
+          "local" : {
+            "taxWithheld" : 600,
+            "localityName" : "East Angilaton",
+            "income" : 700
+          }
+        } ]
+      }
+    } ],
+    "attributes" : [ ]
+  } ]
+}
