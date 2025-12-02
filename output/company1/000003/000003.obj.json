@@ -1,0 +1,59 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "62-637-2564",
+  "taxFormId" : "0547640",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0049619",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "McClure, Haley and Wiza"
+    },
+    "address" : {
+      "line1" : "3343 Wiza Brook",
+      "city" : "Gloverfort",
+      "region" : "MA",
+      "postalCode" : "92811"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "frances.walter@gmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-85-2945",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Santos",
+      "last" : "Kiehn"
+    },
+    "address" : {
+      "line1" : "452 Krissy Center",
+      "city" : "Lake Denver",
+      "region" : "PA",
+      "postalCode" : "21316"
+    },
+    "email" : "felicitas.ledner@yahoo.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "accountNumber" : "940-79993-1",
+  "secondTinNotice" : true,
+  "nonEmployeeCompensation" : 200,
+  "payerDirectSales" : true,
+  "excessGolden" : 300,
+  "federalTaxWithheld" : 400,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 500,
+      "taxId" : "76-912121",
+      "income" : 600
+    },
+    "local" : {
+      "taxWithheld" : 700,
+      "localityName" : "South Lorinda",
+      "income" : 800
+    }
+  } ]
+}
